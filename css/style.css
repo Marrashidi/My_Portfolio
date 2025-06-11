@@ -853,3 +853,15 @@ body {
     max-width: 98vw;
   }
 }
+
+/* Logo */
+.logo img.mr-logo {
+  height: 65px;           
+  width: auto;
+  vertical-align: middle;
+  transition: filter 0.2s;
+}
+
+.logo img.mr-logo:hover {
+  filter: drop-shadow(0 2px 10px var(--primary-color, #e63946));
+}
