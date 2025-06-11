@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marjan Rashidi - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Animated Bars Background -->
+  <div class="bars-animation">
+    <div class="bar" style="--i: 6"></div>
+    <div class="bar" style="--i: 5"></div>
+    <div class="bar" style="--i: 4"></div>
+    <div class="bar" style="--i: 3"></div>
+    <div class="bar" style="--i: 2"></div>
+    <div class="bar" style="--i: 1"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo"><a href="index.html">Portfolio.</a></div>
+
+    <!-- Hamburger menu -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="home-info">
+      <h1>Marjan Rashidi</h1>
+      <h2>
+        I'm a
+        <span style="--i: 4" data-text="Student at Code to Inspire">Student at Code to Inspire</span>
+        <span style="--i: 3" data-text="Frontend Developer">Frontend Developer</span>
+        <span style="--i: 2" data-text="Designer">Designer</span>
+        <span style="--i: 1" data-text="Web Developer">Web Developer</span>
+      </h2>
+      <p>
+        Passionate about crafting beautiful web experiences that blend
+        creativity and functionality.
+      </p>
+      <div class="btn-sci">
+        <a href="docs/C.V - Marjan Rashidi.pdf" class="btn" target="_blank">Download CV</a>
+        <div class="sci">
+          <a href="https://github.com/Marrashidi?tab=repositories" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="http://linkedin.com/in/marjan-rashidi-aba565324" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.youtube.com/watch?v=6egO0WgqYaU" target="_blank"><i class="bx bxl-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="images/homepage_image.jpg" alt="Marjan Rashidi" />
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
