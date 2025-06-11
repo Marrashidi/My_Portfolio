@@ -856,10 +856,17 @@ body {
 
 /* Logo */
 .logo img.mr-logo {
-  height: 65px;           
+  height: 2.5em;
+  max-height: 65px;
+  min-height: 38px;
   width: auto;
   vertical-align: middle;
   transition: filter 0.2s;
+}
+@media (max-width: 600px) {
+  .logo img.mr-logo {
+    height: 34px;
+  }
 }
 
 .logo img.mr-logo:hover {
