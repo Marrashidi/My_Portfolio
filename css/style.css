@@ -166,6 +166,7 @@ body {
 @media (max-width: 768px) {
   .menu-icon {
     display: flex;
+    margin-left: auto;
   }
 
   .navbar nav ul {
